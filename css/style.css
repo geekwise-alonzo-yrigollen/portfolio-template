@@ -1,0 +1,278 @@
+/****BUSINESS STYLES****/
+
+html,body{
+    
+    margin:0 auto;
+    width:100%;
+
+}
+
+body{
+    
+    background-color:rgb(82, 86, 89);
+    margin:0 auto;
+    width:100%;
+    display:block;
+    font-family:'avenir light';
+    
+}
+
+#visitor-body{
+    
+    margin-top:4em;
+    width:99.1%;
+    background-color:gray;
+    
+    
+}
+
+
+
+#forecast_embed{
+    
+    width:2em;
+    color:#fff;
+}
+
+.menu-bar{
+    
+    margin:0 auto;
+    display:block;
+    width:100%;
+    height:5em;
+    background-color:#000;
+    opacity:0.8;
+    z-index:-1;
+    position:fixed;
+    
+}
+.background-image img{
+    
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    display:contain;
+    z-index:-2;
+    position:relative;
+    
+    
+}
+
+
+
+h1{
+    
+    width:100%;
+    color:#b3ff99;
+    /*text-shadow:1px 1px #ffcccc;*/
+    text-shadow:1px 1px #ff8080;
+    transform:translateY(-7em);
+    text-align:center;
+    
+}
+
+
+/****TOP LEFT****/
+
+h4{
+   
+    margin:0 auto;
+    display:block;
+    width:210px;
+    height:3em;
+    font-size:1.3em;
+    float:left;
+    color:#fff;
+    padding:.5em;
+    line-height:3em;
+
+  /****BACKGROUND-COLOR IS PURPLE TEXT****/
+  
+}
+
+
+#triangle{
+    
+	width: 0;
+	height: 0;
+	float:left;
+	border-top: 78px solid #b585ce;
+	border-right: 65px solid transparent;
+	
+}
+
+.temp{
+    
+    margin:0 auto;
+    margin-top:.5em;
+    margin-left:1.2em;
+    height:2.5em;
+    display:block;
+    float:left;
+    line-height:2.8em;
+    font-family:"FontAwesome";
+    color:#fff;
+    background-color:rgb(82, 86, 89);
+    
+}
+
+.visitor-temp{
+    
+    margin:0 auto;
+    margin-top:1.5em;
+    margin-left:1.2em;
+    height:2.5em;
+    display:block;
+    float:left;
+    line-height:2.8em;
+    font-family:"FontAwesome";
+    background-color:#333300;
+    text-shadow: .5px .5px #000;
+
+}
+
+.degree{
+    
+    padding:1px;
+    font-size:.3em;
+}
+
+
+/****WHY DOESN'T COLOR WORK WHITE FOR FONT****/
+
+.visitor-degree{
+    
+    padding:1px;
+    font-size:1.3em;
+    color:#fff;
+    
+}
+
+.fa-sun-o{
+    
+    
+    /*font-family:"FontAwesome" !important;*/
+    padding:10px;
+    width:4.1797em;
+    height:5em;
+    
+}
+
+/****COMMENCE-VISITOR-MAIN-SECTION****/
+
+#vstp{
+    
+    margin:0 auto;
+    display:block;
+    width:100%;
+    
+}
+
+
+.title-visitor{
+
+    transform:translateY(5.14em); 
+    width:100%;
+    padding:1em;
+    
+}
+
+
+.content-heading{
+    
+    margin:0 auto;
+    transform:translateY(2em);
+    font-size:1.5em;
+    width:100%;
+    padding:1.3em;
+    background-color:blue;
+
+}
+ 
+#content-heading{
+    
+    width:90%;
+    padding:.8em;
+    font-size:1.2em;
+    background-color:#fff;
+    height:350px;
+}
+
+#content{
+    
+    font-size:.6em;
+    
+}
+#city{
+    
+    margin:0 auto;
+    display:block;
+    opacity:.8;
+    color:#fff;
+    padding:11px;
+    text-align:center;
+    width:30%;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px #888888;
+    transform:translateY(-18em);
+    background-color:#333300;
+
+}
+/****COMMENCE SQUARE ELEMENTS SET OF 4****/
+
+.box{
+    
+    margin:0 auto;
+    display:contain;
+    transform:translateY(-5.3em);
+    width:100%;
+    
+}
+
+/****CLASS .ONE APPLYS TOSET-OF-8 BLOCKS****/
+
+.one{
+    
+    margin:0 auto;
+    display:inline-block;
+    width:calc(89%/4);
+    height:auto;
+    padding:15px;
+
+}
+
+.last{
+    
+    float:right;
+    
+}
+
+/****COMMENCE FIRST SET OF FOUR BLOCKS BACKGROUND COLOR AND PADDING****/
+
+.first{
+    
+    padding:1em;
+    float:left;
+    transform:translateY(8em);
+    background-color:#ffcccc;
+}
+
+.second{
+    padding:1em;
+    background-color:#ff8080;
+}
+
+.third{
+    padding:1em;
+    background-color:#ff9999;
+}
+
+.fourth{
+    padding:1em;
+    background-color:#b3ff99;
+}
+
+/****END SET OF BOXES****/
+
+
+
