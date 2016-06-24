@@ -90,17 +90,6 @@ h4{
   
 }
 
-
-#triangle{
-    
-	width: 0;
-	height: 0;
-	float:left;
-	border-top: 78px solid #b585ce;
-	border-right: 65px solid transparent;
-	
-}
-
 .temp{
     
     margin:0 auto;
@@ -116,20 +105,6 @@ h4{
     
 }
 
-.visitor-temp{
-    
-    margin:0 auto;
-    margin-top:1.5em;
-    margin-left:1.2em;
-    height:2.5em;
-    display:block;
-    float:left;
-    line-height:2.8em;
-    font-family:"FontAwesome";
-    background-color:#333300;
-    text-shadow: .5px .5px #000;
-
-}
 
 .degree{
     
@@ -221,21 +196,20 @@ h4{
 /****COMMENCE SQUARE ELEMENTS SET OF 4****/
 
 .box{
-    
     margin:0 auto;
-    display:contain;
-    transform:translateY(-5.3em);
+    display:block;
     width:100%;
-    
+    transform:translateY(-7em);
 }
 
 /****CLASS .ONE APPLYS TOSET-OF-8 BLOCKS****/
 
 .one{
     
-    margin:0 auto;
+    margin:1px;
     display:inline-block;
-    width:calc(89%/4);
+    width:calc(92%/3);
+    float:left;
     height:auto;
     padding:15px;
 
@@ -253,7 +227,6 @@ h4{
     
     padding:1em;
     float:left;
-    transform:translateY(8em);
     background-color:#ffcccc;
 }
 
@@ -265,12 +238,9 @@ h4{
 .third{
     padding:1em;
     background-color:#ff9999;
+    float:right;
 }
 
-.fourth{
-    padding:1em;
-    background-color:#b3ff99;
-}
 
 /****END SET OF BOXES****/
 
