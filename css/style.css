@@ -9,11 +9,12 @@ html,body{
 
 body{
     
-    background-color:rgb(82, 86, 89);
+    /*background-color:rgb(82, 86, 89);*/
     margin:0 auto;
     width:100%;
     display:block;
     font-family:'avenir light';
+    background-color:#e0ebeb;
     
 }
 
@@ -23,10 +24,7 @@ body{
     width:99.1%;
     background-color:gray;
     
-    
 }
-
-
 
 #forecast_embed{
     
@@ -46,6 +44,7 @@ body{
     position:fixed;
     
 }
+
 .background-image img{
     
     margin:0 auto;
@@ -248,27 +247,107 @@ h4{
 
 .center-image-element{
     
-    margin:2px;
     height:auto;
+    display:block;
     width:100%;
+    transform:translateY(4em);
 
 
 }
+
 .first-main{
+    
     height:auto;
     transform:translateY(3em);
     width:calc(90%/2);
+    
 }
+
 #yoda{
     
     margin:0 auto;
     float:left;
+    display:inline-block;
     width:40%;
+    transform:translateY(2.9em);
     
 }
 
-.second-main{
+.top-main-text{
+    
     float:right;
-    width:40%;
-    background-color:black;
+    width:45.5%;
+    display:inline-block;
+    transform:translateY(-1.1em);
+    background-color:#e0ebeb;
+    
 }
+.web-graphic-design-text{
+    
+    float:left;
+    width:45%;
+    display:block;
+    transform:translateX(12em);
+    background-color:#e0ebeb;
+    
+}
+#wed-design-graphic-design{
+    
+    display:block;
+    float:right;
+    width:calc(95%/2);
+     
+}
+
+#online-marketing-seo{
+    
+    display:block;
+    float:right;
+    width:calc(95%/2);
+    
+}
+
+/****MY SKILLS SECTION****/
+
+#my-skills{
+    
+    margin:0 auto;
+    width:70%;
+    padding:2em;
+
+    display:block;
+    text-align:center;
+    transform:translateY(41.62em);
+    background-color:#fff;
+    
+}
+
+#my-skills-text{
+    
+transform:translateY(-11em);
+display:block;
+margin:0 auto;
+    
+    
+    
+}
+
+#button{
+    
+    margin:0 auto;
+    width:7em;
+    padding:1em;
+    color:green;
+    border:solid 3px green;
+    background-color:#fff;
+    display:block;
+    transform:translateY(-13em);
+    float:left;
+
+    
+    
+}
+
+
+
+
