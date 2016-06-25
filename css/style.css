@@ -199,7 +199,8 @@ h4{
     margin:0 auto;
     display:block;
     width:100%;
-    transform:translateY(-7em);
+    height:auto;
+    transform:translateY(-8.5em);
 }
 
 /****CLASS .ONE APPLYS TOSET-OF-8 BLOCKS****/
@@ -241,8 +242,33 @@ h4{
     float:right;
 }
 
-
 /****END SET OF BOXES****/
 
+/****COMMENCE CENTER MAIN IMAGE****/
+
+.center-image-element{
+    
+    margin:2px;
+    height:auto;
+    width:100%;
 
 
+}
+.first-main{
+    height:auto;
+    transform:translateY(3em);
+    width:calc(90%/2);
+}
+#yoda{
+    
+    margin:0 auto;
+    float:left;
+    width:40%;
+    
+}
+
+.second-main{
+    float:right;
+    width:40%;
+    background-color:black;
+}
