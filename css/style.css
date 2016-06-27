@@ -267,7 +267,7 @@ h4{
     
     margin:0 auto;
     float:left;
-    display:inline-block;
+    display:contain;
     width:40%;
     height:200px;
     transform:translateY(-1.1em);
@@ -525,8 +525,26 @@ footer{
 
 
 
+
 /****CONCLUDE ICON STYLE****/
 
 
 
 /****COMMENCE FOOTER HERE****/
+
+
+@media screen and (max-width:1055px){
+   
+   .box{ 
+    width:100%;
+   }
+}
+
+
+
+
+
+
+
+
+
