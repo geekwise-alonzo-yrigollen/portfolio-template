@@ -14,7 +14,7 @@ body{
     width:100%;
     display:block;
     font-family:'avenir light';
-    background-color:#e0ebeb;
+    background-color:#fff;
     
 }
 
@@ -250,7 +250,7 @@ h4{
     height:auto;
     display:block;
     width:100%;
-    transform:translateY(4em);
+    transform:translateY(-7.3em);
 
 
 }
@@ -269,28 +269,35 @@ h4{
     float:left;
     display:inline-block;
     width:40%;
-    transform:translateY(2.9em);
+    height:200px;
+    transform:translateY(-1.1em);
     
 }
 
 .top-main-text{
     
+    margin:0 auto;
     float:right;
     width:45.5%;
     display:inline-block;
+    padding:5px;
     transform:translateY(-1.1em);
     background-color:#e0ebeb;
     
 }
+
 .web-graphic-design-text{
     
+    margin:0 auto;
     float:left;
     width:45%;
+    padding:7px;
     display:block;
     transform:translateX(12em);
     background-color:#e0ebeb;
     
 }
+
 #wed-design-graphic-design{
     
     display:block;
@@ -314,7 +321,6 @@ h4{
     margin:0 auto;
     width:70%;
     padding:2em;
-
     display:block;
     text-align:center;
     transform:translateY(41.62em);
@@ -340,14 +346,132 @@ margin:0 auto;
     color:green;
     border:solid 3px green;
     background-color:#fff;
-    display:block;
     transform:translateY(-13em);
     float:left;
+}
 
+#beneath-contact-me{
     
+    margin:0 auto;
+    display:block;
+    width:74.8%;
+    transform:translateY(42.7em);
+    background-color:#e0ebeb;
+
+}
+
+#beneath-contact-text p{
+    
+  margin:0 auto;
+  display:block;
+  color:#000;
+  width:50%;
+  
+}
+
+h4{
+    
+    color:#000;
+    display:block;
+    margin:0 auto;
     
 }
 
+#portfolio-section{
+    
+    margin:0 auto;
+    display:block;
+    transform:translateY(45.7em);
+    background-color:gray;
 
+}
 
+#portfolio-article{
+    
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    width:60%;
+    height:auto;
+
+}
+
+#portfolio-article p{
+    
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    width:100%;
+    float:left;
+
+}
+
+/****CONTACT ME SECTION****/
+
+#contact-me-section{
+    
+    width:100%;
+    display:block;
+    transform:translateY(5em);
+
+}
+input{
+    
+    width:75%;
+    
+}
+#left-contact-me-element{
+    
+    float:left;
+    width:50%;
+    background-color:#293d3d;
+    
+    
+}
+#right-contact-me-element{
+    
+    float:left;
+    width:50%;
+    text-align:center;
+    margin:2em;
+    display:block;
+    margin:0 auto;
+    background-color:#293d3d;
+    
+    
+}
+#right-contact-me-element p{
+    
+text-align:left;
+transform:translateX(5em);
+    
+}
+#me-button{
+    
+    color:#fff;
+    padding:1.5em;
+    width:6.5em;
+    background-color:#000;
+    
+    
+}
+.under-portfolio{
+    
+    margin:0 auto;
+    display:block;
+    width:100%;
+    transform:translateY(50em);
+}
+.portfolio-first{
+
+    background-color:gray;
+}
+.portfolio-second{
+    
+    background-color:#a2c3c3;
+}
+.portfolio-third{
+    
+    background-color:#d0e1e1;
+}
 
