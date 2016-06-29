@@ -209,7 +209,7 @@ h4{
     
     margin:1px;
     display:inline-block;
-    width:calc(92.43%/3);
+    width:calc(92.26%/3);
     float:left;
     height:auto;
     padding:15px;
@@ -228,17 +228,17 @@ h4{
     
     padding:1em;
     float:left;
-    background-color:#ffcccc;
+    background-color:#d0e1e1;
 }
 
 .second{
     padding:1em;
-    background-color:#ff8080;
+    background-color:#a2c3c3;
 }
 
 .third{
     padding:1em;
-    background-color:#ff9999;
+    background-color:gray;
     float:right;
 }
 
