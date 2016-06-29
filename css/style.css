@@ -413,6 +413,8 @@ h4{
     
     width:100%;
     display:block;
+    color:#fff;
+    text-shadow:1px 1px 1px #000;
     transform:translateY(5em);
 
 }
