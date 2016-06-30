@@ -13,6 +13,9 @@ body{
     margin:0 auto;
     width:100%;
     display:block;
+    /*background-image: url(http://i.imgur.com/5LDDW5b.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*position:fixed;*/
     font-family:'avenir light';
     background-color:#fff;
     
@@ -320,7 +323,7 @@ h4{
 #my-skills{
     
     margin:0 auto;
-    width:70%;
+    width:100%;
     padding:2em;
     display:block;
     text-align:center;
@@ -334,9 +337,31 @@ h4{
 transform:translateY(-11em);
 display:block;
 margin:0 auto;
+background-image:url(http://i.imgur.com/PHXXJRl.jpg);
+width:100%;
+/*height:600px;*/
+transform:translateY(-1.99em);
     
+}
+#my-skills-text p{
     
+    margin:0 auto;
+    display:block;
+    color:#b7b795;
+    font-size:17px;
+    font-weight:700;
+    text-shadow:.5px .5px .5px yellow;
+    transform:translateY(-1em);
     
+}
+
+#my-skills-text img{
+    margin:0 auto;
+    display:block;
+    transform:translateY(-25em);
+    width:422px;
+    height:auto;
+    box-shadow:2.5px 2.5px 2.5px #000;
 }
 
 #button{
@@ -344,11 +369,10 @@ margin:0 auto;
     margin:0 auto;
     width:7em;
     padding:1em;
-    color:green;
-    border:solid 3px green;
-    background-color:#fff;
-    transform:translateY(-13em);
-    float:left;
+    color:gray;
+    border:solid 1.5px green;
+    background-color:#b7b795;
+    /*float:left;*/
 }
 
 #beneath-contact-me{
@@ -356,7 +380,8 @@ margin:0 auto;
     margin:0 auto;
     display:block;
     width:74.8%;
-    transform:translateY(42.7em);
+    height:320px;
+    transform:translateY(37.7em);
     background-color:#e0ebeb;
 
 }
@@ -455,6 +480,7 @@ input{
 #right-contact-me-element p{
     
 text-align:left;
+height:1.4em;
 transform:translateX(5em);
     
 }
