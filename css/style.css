@@ -526,7 +526,8 @@ footer{
     display:block;
     color:#588d8d;
     width:100%;
-    height:250px;
+    height:2407
+    px;
     transform:translateY(115.1em);
     background-color:#0a1010;
    
@@ -571,9 +572,20 @@ footer{
 /****COMMENCE FOOTER HERE****/
 
 
-@media screen and (max-width:1055px){
+@media screen and (max-width:1109px){
    
    .box{ 
-    width:100%;
+    display:contain;
+   }
+   .one{
+       width:100%;
+       display:inline-block;
+       
+   }
+   .center-image-element{
+       
+       display:contain;
+       width:100%;
+       
    }
 }
