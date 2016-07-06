@@ -570,7 +570,7 @@ footer{
 
 
 /****COMMENCE FOOTER HERE****/
-@media screen and (max-width:1509px) and (min-width:1109px){
+@media screen and (max-width:1319px){
     
      .box{ 
     display:contain;
@@ -616,7 +616,7 @@ footer{
     }
 }
 
-@media screen and (max-width:1109px) and (min-width:767px){
+@media screen and (max-width:1109px){
    
    .box{ 
     display:contain;
@@ -663,11 +663,12 @@ footer{
 }
 
 
-@media screen and (max-width:766px) and (min-width:375px){
+@media screen and (max-width:766px){
     
     
     .box{
         display:contain;
+        width:100%;
     }
     .one{
         width:100%;
@@ -695,14 +696,20 @@ footer{
         
         width:100%;
         float:left;
+
+    }
+    #online-marketing-seo{
         
+        display:inline;
+    }
+    .third{
+        display:inline;
+        float:left;
     }
     #web-design-graphic-design{
         
-        
-        width:100%;
-        display:block;
-        float:left;
+        margin:0 auto;
+        display:inline-block;
     }
     
 }
