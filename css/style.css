@@ -570,9 +570,53 @@ footer{
 
 
 /****COMMENCE FOOTER HERE****/
+@media screen and (max-width:1509px) and (min-width:1109px){
+    
+     .box{ 
+    display:contain;
+   }
+   .one{
+       width:100%;
+       display:inline-block;
+       
+   }
+   .center-image-element{
+       
+       display:inline;
+       float:left;
+       width:100%;
+       
+   }
+   #yoda{
+        
+        z-index:2;
+        position:relative;
+        display:contain;
+    }
+    #yoda img{
+        width:100%;
+    }
+    .top-main-text{
+        
+        width:100%;
+        float:left;
+    }
+    .web-graphic-design-text{
+        
+        width:100%;
+        float:left;
+        
+    }
+    #web-design-graphic-design{
+        
+        
+        width:100%;
+        display:block;
+        float:left;
+    }
+}
 
-
-@media screen and (max-width:1109px){
+@media screen and (max-width:1109px) and (min-width:767px){
    
    .box{ 
     display:contain;
@@ -584,8 +628,96 @@ footer{
    }
    .center-image-element{
        
-       display:contain;
+       display:inline;
+       float:left;
        width:100%;
        
    }
+   #yoda{
+        
+        z-index:2;
+        position:relative;
+        display:contain;
+    }
+    #yoda img{
+        width:100%;
+    }
+    .top-main-text{
+        
+        width:100%;
+        float:left;
+    }
+    .web-graphic-design-text{
+        
+        width:100%;
+        float:left;
+        
+    }
+    #web-design-graphic-design{
+        
+        
+        width:100%;
+        display:block;
+        float:left;
+    }
 }
+
+
+@media screen and (max-width:766px) and (min-width:375px){
+    
+    
+    .box{
+        display:contain;
+    }
+    .one{
+        width:100%;
+        display:inline-block;
+    }
+    .center-image-element{
+    display:inline;
+    float:left;
+    width:100%;
+    }
+    #yoda{
+        
+        z-index:2;
+        position:relative;
+    }
+    #yoda img{
+        width:360px;
+    }
+    .top-main-text{
+        
+        width:100%;
+        float:left;
+    }
+    .web-graphic-design-text{
+        
+        width:100%;
+        float:left;
+        
+    }
+    #web-design-graphic-design{
+        
+        
+        width:100%;
+        display:block;
+        float:left;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
