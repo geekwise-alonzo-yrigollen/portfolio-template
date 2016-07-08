@@ -57,10 +57,7 @@ body{
     z-index:-2;
     position:relative;
     
-    
 }
-
-
 
 h1{
     
@@ -154,7 +151,6 @@ h4{
     
 }
 
-
 .content-heading{
     
     margin:0 auto;
@@ -180,6 +176,7 @@ h4{
     font-size:.6em;
     
 }
+
 #city{
     
     margin:0 auto;
@@ -343,6 +340,7 @@ width:100%;
 transform:translateY(-1.99em);
     
 }
+
 #my-skills-text p{
     
     margin:0 auto;
@@ -443,6 +441,7 @@ h4{
     transform:translateY(5em);
 
 }
+
 #card img{
     margin:0 auto;
     display:block;
@@ -452,11 +451,13 @@ h4{
     float:right;
     transform:translateY(-8em);
 }
+
 input{
     
     width:75%;
     
 }
+
 #left-contact-me-element{
     
     float:left;
@@ -465,6 +466,7 @@ input{
     
     
 }
+
 #right-contact-me-element{
     
     float:left;
@@ -475,8 +477,8 @@ input{
     margin:0 auto;
     background-color:#293d3d;
     
-    
 }
+
 #right-contact-me-element p{
     
 text-align:left;
@@ -484,6 +486,7 @@ height:1.4em;
 transform:translateX(5em);
     
 }
+
 #me-button{
     
     color:#fff;
@@ -493,6 +496,7 @@ transform:translateX(5em);
     
     
 }
+
 .under-portfolio{
     
     margin:0 auto;
@@ -500,14 +504,17 @@ transform:translateX(5em);
     width:100%;
     transform:translateY(50em);
 }
+
 .portfolio-first{
 
     background-color:gray;
 }
+
 .portfolio-second{
     
     background-color:#a2c3c3;
 }
+
 .portfolio-third{
     
     background-color:#d0e1e1;
@@ -562,15 +569,10 @@ footer{
 
 }
 
-
-
-
 /****CONCLUDE ICON STYLE****/
 
-
-
 /****COMMENCE FOOTER HERE****/
-@media screen and (max-width:1319px){
+@media screen and (max-width:1335px){
     
      .box{ 
     display:contain;
@@ -592,9 +594,11 @@ footer{
         z-index:2;
         position:relative;
         display:contain;
+        width:100%;
     }
     #yoda img{
         width:100%;
+        height:auto;
     }
     .top-main-text{
         
@@ -633,15 +637,20 @@ footer{
        width:100%;
        
    }
-   #yoda{
+   #my-skills-text{
+       
+       width:100%;
+       
+   }
+   /*#yoda{*/
         
-        z-index:2;
-        position:relative;
-        display:contain;
-    }
-    #yoda img{
-        width:100%;
-    }
+   /*     z-index:2;*/
+   /*     position:relative;*/
+   /*     display:contain;*/
+   /* }*/
+   /* #yoda img{*/
+   /*     width:100%;*/
+   /* }*/
     .top-main-text{
         
         width:100%;
@@ -650,6 +659,8 @@ footer{
     .web-graphic-design-text{
         
         width:100%;
+        display:block;
+        transform:translateX(-7em);
         float:left;
         
     }
@@ -679,14 +690,14 @@ footer{
     float:left;
     width:100%;
     }
-    #yoda{
+    /*#yoda{*/
         
-        z-index:2;
-        position:relative;
-    }
-    #yoda img{
-        width:360px;
-    }
+    /*    z-index:2;*/
+    /*    position:relative;*/
+    /*}*/
+    /*#yoda img{*/
+    /*    width:360px;*/
+    /*}*/
     .top-main-text{
         
         width:100%;
@@ -710,6 +721,20 @@ footer{
         
         margin:0 auto;
         display:inline-block;
+    }
+    
+    #my-skills{
+        
+        margin:0 auto;
+        display:block;
+        
+    }
+    #my-skills img{
+        
+        display:block;
+        float:left;
+        
+        
     }
     
 }
