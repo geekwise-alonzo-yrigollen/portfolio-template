@@ -322,22 +322,24 @@ h4{
     margin:0 auto;
     width:100%;
     padding:2em;
-    display:block;
+    display:contain;
     text-align:center;
     transform:translateY(41.62em);
-    background-color:#fff;
+    background-image:url(http://i.imgur.com/PHXXJRl.jpg);
+    
+
     
 }
 
 #my-skills-text{
     
 transform:translateY(-11em);
-display:block;
 margin:0 auto;
-background-image:url(http://i.imgur.com/PHXXJRl.jpg);
 width:100%;
+display:contain;
 /*height:600px;*/
-transform:translateY(-1.99em);
+transform:translateY(15em);
+
     
 }
 
@@ -611,12 +613,40 @@ footer{
         float:left;
         
     }
+    #beneath-contact-me{
+        
+        width:100%;
+        height:auto;
+        display:block;
+    }
+    #portfolio-section{
+        
+        width:100%;
+        height:auto;
+    }
     #web-design-graphic-design{
         
         
         width:100%;
         display:block;
         float:left;
+    }
+    .set-of-nine{
+        
+        width:100%;
+        height:auto;
+    }
+    footer{
+        width:100%;
+        height:auto;
+    }
+    .icon{
+        width:100%;
+        height:auto;
+    }
+    footer{
+        width:100%;
+        height:auto;
     }
 }
 
@@ -637,10 +667,15 @@ footer{
        width:100%;
        
    }
+   
    #my-skills-text{
        
        width:100%;
        
+   }
+   main{
+       width:100%;
+       height:auto;
    }
    /*#yoda{*/
         
@@ -670,6 +705,19 @@ footer{
         width:100%;
         display:block;
         float:left;
+    }
+    footer{
+        width:100%;
+        height:auto;
+    }
+    .icon{
+        width:100%;
+        height:auto;
+    }
+    .set-of-nine{
+        
+        width:100%;
+        height:auto;
     }
 }
 
@@ -726,7 +774,9 @@ footer{
     #my-skills{
         
         margin:0 auto;
-        display:block;
+        height:auto;
+        width:100%;
+        display:contain;
         
     }
     #my-skills img{
@@ -736,7 +786,14 @@ footer{
         
         
     }
-    
+    footer{
+        width:100%;
+        height:auto;
+    }
+    .icon{
+        width:100%;
+        height:auto;
+    }
 }
 
 
