@@ -13,8 +13,8 @@ body{
     margin:0 auto;
     width:100%;
     display:block;
-    /*background-image: url(http://i.imgur.com/5LDDW5b.jpg);*/
-    /*background-repeat: no-repeat;*/
+    background-image:url(http://i.imgur.com/PHXXJRl.jpg);
+    background-repeat:no-repeat;
     /*position:fixed;*/
     font-family:'avenir light';
     background-color:#fff;
@@ -325,7 +325,7 @@ h4{
     display:contain;
     text-align:center;
     transform:translateY(41.62em);
-    background-image:url(http://i.imgur.com/PHXXJRl.jpg);
+    /*background-image:url(http://i.imgur.com/PHXXJRl.jpg);*/
     
 
     
