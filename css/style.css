@@ -35,6 +35,14 @@ body{
     color:#fff;
 }
 
+/**************************************************/
+
+#portfolio-img{
+    
+    width:30px;
+    height:50px
+}
+
 .menu-bar{
     
     margin:0 auto;
@@ -46,6 +54,10 @@ body{
     z-index:-1;
     position:fixed;
     
+}
+#menu{
+    width:10em;
+    height:3em;
 }
 
 .background-image img{
@@ -432,6 +444,25 @@ h4{
 
 }
 
+#porfolio-img{
+    
+    display:block;
+    margin:0 auto;
+    width:calc(100%/4);
+    height: auto;
+    
+    
+}
+
+#portfolio-img img{
+    
+    margin:0 auto;
+    display:inline-block;
+    padding:1em;
+    width:250px;
+    height:250px;
+    float:left;
+}
 /****CONTACT ME SECTION****/
 
 #contact-me-section{
