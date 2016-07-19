@@ -17,7 +17,7 @@ body{
     background-repeat:no-repeat;
     /*position:fixed;*/
     font-family:'avenir light';
-    background-color:#fff;
+    background-color:#000;
     
 }
 
@@ -77,7 +77,7 @@ h1{
     color:#b3ff99;
     /*text-shadow:1px 1px #ffcccc;*/
     text-shadow:1px 1px #ff8080;
-    transform:translateY(-7em);
+    transform:translateY(-8em);
     text-align:center;
     
 }
@@ -215,13 +215,19 @@ h4{
     transform:translateY(-8.8em);
 }
 
+.box p{
+    
+    text-align:center;
+    font-size:2em;
+}
+
 /****CLASS .ONE APPLYS TOSET-OF-8 BLOCKS****/
 
 .one{
     
-    margin:1px;
+    margin:0 auto;
     display:inline-block;
-    width:calc(92.26%/3);
+    width:calc(92.8%/3);
     float:left;
     height:auto;
     padding:15px;
@@ -240,18 +246,53 @@ h4{
     
     padding:1em;
     float:left;
-    background-color:#d0e1e1;
+    color:red;
+    background-color:#000;
+    /*background-color:#d0e1e1;*/
+    color:#b3ff99;
+    /*text-shadow:1px 1px #ffcccc;*/
+    text-shadow:1px 1px #ff8080;
 }
 
 .second{
     padding:1em;
-    background-color:#a2c3c3;
+    color:red;
+    background-color:#000;
+    color:#b3ff99;
+    /*text-shadow:1px 1px #ffcccc;*/
+    text-shadow:1px 1px #ff8080;
+
+    /*background-color:#a2c3c3;*/
+}
+
+/***************first images below the main image*************************/
+
+#values-img img{
+    
+    width:350px;
+    height:150px;
+    
+}
+
+#goals-img img{
+    
+    width:400px;
+    height:150px;
+}
+#hobbies-img img{
+    
+    width:350px;
+    height:150px
 }
 
 .third{
+    color:red;
     padding:1em;
-    background-color:gray;
+    background-color:#000;
     float:right;
+    color:#b3ff99;
+    /*text-shadow:1px 1px #ffcccc;*/
+    text-shadow:1px 1px #ff8080;
 }
 
 /****END SET OF BOXES****/
@@ -281,21 +322,27 @@ h4{
     margin:0 auto;
     float:left;
     display:contain;
-    width:40%;
+    width:48%;
     height:200px;
-    transform:translateY(-1.1em);
+    /*transform:translateY(-1.1em);*/
     
+}
+#yoda img{
+    width:100%;
+    /*transform:translateX(7em);*/
 }
 
 .top-main-text{
     
     margin:0 auto;
     float:right;
-    width:45.5%;
+    width:48%;
     display:inline-block;
     padding:5px;
+    color:#fff;
     transform:translateY(-1.1em);
-    background-color:#e0ebeb;
+    background-color:#000;
+    /*background-color:#e0ebeb;*/
     
 }
 
@@ -303,11 +350,13 @@ h4{
     
     margin:0 auto;
     float:left;
-    width:45%;
+    width:50%;
     padding:7px;
     display:block;
-    transform:translateX(12em);
-    background-color:#e0ebeb;
+    color:#fff;
+    transform:translateX(1em);
+    background-color:#000;
+    /*background-color:#e0ebeb;*/
     
 }
 
