@@ -66,6 +66,7 @@ body{
     width:100%;
     height:auto;
     display:contain;
+    opacity:.8;
     z-index:-2;
     position:relative;
     
@@ -212,6 +213,7 @@ h4{
     display:block;
     width:100%;
     height:auto;
+    background-color:rgb(26, 117, 255);
     transform:translateY(-8.8em);
 }
 
@@ -219,6 +221,7 @@ h4{
     
     text-align:center;
     font-size:2em;
+    background-color:red;
 }
 
 /****CLASS .ONE APPLYS TOSET-OF-8 BLOCKS****/
@@ -250,6 +253,8 @@ h4{
     background-color:#000;
     /*background-color:#d0e1e1;*/
     color:#b3ff99;
+    /*background-color:#00ffbf;*/
+    opacity:.8;
     /*text-shadow:1px 1px #ffcccc;*/
     text-shadow:1px 1px #ff8080;
 }
