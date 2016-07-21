@@ -299,13 +299,15 @@ h4{
 }
 first, second, third, p:hover{
     
-    background-color:#80b3ff;
-    
+    text-shadow:1px 1px #fff;
+    font-size:1em;
+    font-weight:700;
+
 }
 main{
     
     margin:0 auto;
-    height:auto;
+    height:100vh;
     display:block;
     display:cover;
 }
@@ -438,8 +440,13 @@ section iframe{
     margin:0 auto;
     
 }
-.web-graphic-design-text{
+.web-graphic-design-text a{
     color:#fff;
+}
+.web-graphic-design-text a:hover{
+    color:#000;
+    font-size:2em;
+    font-weight:700;
 }
 /*.web-graphic-design-text{*/
     
@@ -711,9 +718,9 @@ footer{
     display:block;
     color:#588d8d;
     width:100%;
-    height:2407
-    px;
-    transform:translateY(115.1em);
+    padding:1em;
+    height:auto;
+    transform:translateY(25em);
     background-color:#0a1010;
    
 }
@@ -731,7 +738,7 @@ footer{
     display:block;
     margin:0 auto;
     width:100%;
-    transform:translateY(4em);
+    transform:translateY(-1em);
 
 }
 
@@ -819,10 +826,7 @@ footer{
         width:100%;
         height:auto;
     }
-    footer{
-        width:100%;
-        height:auto;
-    }
+    
     .icon{
         width:100%;
         height:auto;
