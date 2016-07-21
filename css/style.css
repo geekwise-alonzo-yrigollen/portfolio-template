@@ -74,7 +74,7 @@ body{
 }
 .background-image:hover{
     
-    transition:background 0.5s linear 0s, color 0.3s linear 0s; opacity:.3;
+    transition:background 0.5s linear 0s, color 0.3s linear 0s; opacity:.2;
     /*background-color:#ccff66;*/
     /*color:#000080;*/
 }
