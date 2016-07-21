@@ -252,15 +252,17 @@ h4{
     transform:translateY(-8.8em);
 }
 .box p{
-  animation: pulse 5s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
   0% {
-    background-color: #003333;
+    color: #003333;
+    text-shadow:#fff;
   }
   100% {
-    background-color: #4dffff;
+    color: #4dffff;
+    text-shadow:red;
   }
 }
 
