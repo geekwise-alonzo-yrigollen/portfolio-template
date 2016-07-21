@@ -67,7 +67,6 @@ body{
     width:100%;
     height:auto;
     display:contain;
-    opacity:.8;
     /*z-index:-2;*/
     /*position:relative;*/
     
@@ -75,7 +74,7 @@ body{
 }
 .background-image:hover{
     
-    transition:background 0.5s linear 0s, color 0.3s linear 0s; opacity:.5;
+    transition:background 0.5s linear 0s, color 0.3s linear 0s; opacity:.3;
     /*background-color:#ccff66;*/
     /*color:#000080;*/
 }
@@ -217,6 +216,30 @@ h4{
     background-color:#000;
 
 }
+/*****************marquee**************************/
+
+#caption
+{
+    z-index:-3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 20em;
+    line-height: 30px;
+    height:30px;
+    width: 100%;
+    color:red;
+    transform:translateY(-10em);
+    white-space: nowrap;
+    -moz-animation:  caption 50s linear 0s infinite;
+    -webkit-animation:  caption 50s linear 0s infinite;
+}
+@-moz-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }
+@-webkit-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }
+
+/*******************END MARQEE****************************/
+
+
 /****COMMENCE SQUARE ELEMENTS SET OF 4****/
 
 .box{
@@ -468,6 +491,8 @@ section iframe{
     display:block;
     float:right;
     width:calc(95%/2);
+        text-align:center;
+
      
 }
 
@@ -476,6 +501,7 @@ section iframe{
     display:block;
     float:right;
     width:calc(95%/2);
+    text-align:center;
     
 }
 
@@ -729,8 +755,8 @@ footer{
 /****COMMENCE ICON IMAGE SIZE****/
 
 .img img{
-    width:20px;
-    height:20px;
+    width:35px;
+    height:35px;
     transform:translateX(3em);
 
 }
