@@ -222,8 +222,8 @@ h4{
 
 #caption
 {
-    z-index:-3;
-    position: fixed;
+    z-index:99;
+    position:absolute;
     bottom: 0;
     left: 0;
     font-size: 20em;
@@ -249,9 +249,10 @@ h4{
     display:block;
     width:100%;
     height:auto;
+    position:fixed;
     overflow:hidden;
     background-color:rgb(26, 117, 255);
-    transform:translateY(-8.8em);
+    transform:translateY(-28.8em);
     transition-timing-function: ease;
 }
 .box p{
@@ -501,11 +502,18 @@ section iframe{
     margin:0 auto;
     
 }
+/*.web-graphic-design-text{*/
+    
+/*    margin:0 auto;*/
+/*    display:block;*/
+    
+    
+/*}*/
 .web-graphic-design-text a{
     color:#fff;
     font-size:2em;
     text-decoration:none;
-    transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in-out;
 
 }
 .web-graphic-design-text a:hover{
@@ -721,6 +729,9 @@ input{
     float:left;
     width:50%;
     height:auto;
+    /*position:fixed;*/
+    /*overflow:hidden;*/
+    /*z-index:99;*/
     background-color:#293d3d;
     
     
@@ -832,7 +843,7 @@ a .img img:hover{
 
 /****COMMENCE ICON STYLE****/
 #aay{
-    margiN;0 auto;
+    margin:0 auto;
     display:block;
     text-shadow:3px 3px 3px #fff;
     transform:translateX(5em);
@@ -860,7 +871,7 @@ a .img img:hover{
 /****COMMENCE FOOTER HERE****/
 @media screen and (max-width:1335px){
     
-     .box{ 
+    .box{ 
     display:contain;
    }
    .one{
