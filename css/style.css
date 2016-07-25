@@ -15,7 +15,7 @@ body{
     height:auto;
     display:block;
     background-image:url(http://i.imgur.com/PHXXJRl.jpg);
-    /*background-repeat:no-repeat;*/
+    background-repeat:no-repeat;
     /*position:fixed;*/
     font-family:'avenir light';
     background-color:#000;
@@ -68,8 +68,8 @@ body{
     width:100%;
     height:auto;
     display:contain;
-        transition: all 0.6s ease-in;
-
+    transition: all 0.6s ease-in;
+    position:fixed;
 
 }
 
@@ -214,30 +214,30 @@ h4{
     border-radius:5px;
     text-shadow:.5px .5px .5px #dfff80;
     box-shadow: 3px 3px 3px #888888;
-    transform:translateY(-18em);
+    transform:translateY(44em);
     background-color:#000;
 
 }
 /*****************marquee**************************/
 
-#caption
-{
-    z-index:99;
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 20em;
-    line-height: 30px;
-    height:30px;
-    width: 100%;
-    color:red;
-    transform:translateY(-10em);
-    white-space: nowrap;
-    -moz-animation:  caption 50s linear 0s infinite;
-    -webkit-animation:  caption 50s linear 0s infinite;
-}
-@-moz-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }
-@-webkit-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }
+/*#caption*/
+/*{*/
+/*    z-index:99;*/
+/*    position:absolute;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    font-size: 20em;*/
+/*    line-height: 30px;*/
+/*    height:30px;*/
+/*    width: 100%;*/
+/*    color:red;*/
+/*    transform:translateY(-10em);*/
+/*    white-space: nowrap;*/
+/*    -moz-animation:  caption 50s linear 0s infinite;*/
+/*    -webkit-animation:  caption 50s linear 0s infinite;*/
+/*}*/
+/*@-moz-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }*/
+/*@-webkit-keyframes caption { 0% { margin-left:120%; } 100% { margin-left:-4200px; }  }*/
 
 /*******************END MARQEE****************************/
 
@@ -252,12 +252,9 @@ h4{
     position:fixed;
     overflow:hidden;
     background-color:rgb(26, 117, 255);
-    transform:translateY(-28.8em);
-    transition-timing-function: ease;
+    /*transition-timing-function: ease;*/
 }
-.box p{
-  animation: pulse 1.5s infinite;
-}
+
 
 @keyframes pulse {
   0% {
@@ -272,7 +269,7 @@ h4{
 
 .first p:hover{
     
-    transform: translate(-10%, -10%);
+    transform: translate(-5%, -5%);
     opacity:.6;
     background-color:#000;
     transform:translateY(7.5em 1.3s);
@@ -301,9 +298,13 @@ h4{
     border-radius:5px;
     color:#000;
     font-weight:700;
+    transform:translateY(.5em);
     text-shadow:.5px .5px .5px #dfff80;
     box-shadow: 3px #888888;
     background-color:#000;
+    transition: all 0.3s ease-in-out;
+    animation: pulse 1.5s infinite;
+
     
 }
     
@@ -311,10 +312,9 @@ h4{
     
     color:#000;
     font-weight:700;
-    text-shadow:.5px .5px .5px #dfff80;
-    box-shadow: 3px 3px 3px #888888;
+    /*text-shadow:.5px .5px .5px #dfff80;*/
+    /*box-shadow: 3px 3px 3px #888888;*/
     background-color:#000;
-    transition: all 0.6s ease-in-out;
 
     
 }
@@ -351,7 +351,7 @@ h4{
     /*text-shadow:1px 1px #ffcccc;*/
     text-shadow:1px 1px #ff8080;
 }
-first, second, third, p:hover{
+.first, .second, .third, p:hover{
     
     text-shadow:1px 1px #fff;
     font-size:1em;
@@ -721,11 +721,11 @@ h4{
     margin:0 auto;
     width:100%;
     display:block;
-    position:fixed;
+    position:absolute;
     z-index:4;
     color:#fff;
     text-shadow:1px 1px 1px #000;
-    transform:translateY(24.3em);
+    transform:translateY(44.3em);
 
 }
 #blank{
@@ -924,7 +924,7 @@ a .img img:hover{
    #yoda{
         
         z-index:2;
-        position:relative;
+        position:fixed;
         display:contain;
         width:100%;
     }
