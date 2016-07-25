@@ -521,8 +521,12 @@ section iframe{
     
     margin:0 auto;
     display:block;
-    z-index:5;
-    position:relative;
+    z-index:3;
+    /*position:relative;*/
+    
+    
+    
+    
     
 }
 .web-graphic-design-text a{
@@ -717,10 +721,20 @@ h4{
     margin:0 auto;
     width:100%;
     display:block;
+    position:fixed;
+    z-index:4;
     color:#fff;
     text-shadow:1px 1px 1px #000;
     transform:translateY(24.3em);
 
+}
+#blank{
+    
+    margin:0 auto;
+    width:100%;
+    background-color:red;
+    
+    
 }
 
 #card img{
