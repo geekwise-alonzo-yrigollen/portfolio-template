@@ -91,10 +91,13 @@ h1{
     
     width:100%;
     color:#b3ff99;
+    font-size:4em;
     /*text-shadow:1px 1px #ffcccc;*/
     text-shadow:1px 1px #ff8080;
     transform:translateY(-8em);
     text-align:center;
+    z-index:5;
+    position:absolute;
     
 }
 
@@ -251,6 +254,7 @@ h4{
     z-index:6;
     position:relative;
     overflow:hidden;
+    transform:translateY(8em);
     background-color:rgb(26, 117, 255);
     /*transition-timing-function: ease;*/
 }
